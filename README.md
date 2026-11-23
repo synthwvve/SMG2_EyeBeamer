@@ -10,7 +10,7 @@ Obj_arg0: Beam Length: The length of the electric beam. Default is 2000.
 Obj_arg1: Water Effect?: If this value is greater than 0, then the EyeBeamer will emit a particle when the beam touches water.  
 Obj_arg2: Start State: -1 = Starts idling, 0 = Starts patrolling
 
-Path ID: A valid one is required for this to work properly; THE GAME WILL CRASH IF A PATH ID IS NOT ASSIGNED.
+Path ID: A valid one is required for this to work properly; Without one, the game will crash if the EyeBeamer is in patrol mode.
 
 SW_A: When activated, the Eye Beamer will go from its waiting state to its patrolling state.
 
