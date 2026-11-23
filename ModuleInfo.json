@@ -1,6 +1,17 @@
 {
-  "Name": "My Syati Module",
-  "Author": "YourNameHere",
-  "Description": "My Syati Module is awesome!",
-  "SupportedGames": [ "SB4" ]
+  "Name": "EyeBeamer to SMG2",
+  "Author": "synthwave",
+  "Description": "Port of the Eye Beamer obstacle to SMG2",
+  "SupportedGames": [ "SB4" ],
+  "ModuleData": [
+    {
+      "NameObjFactory" : [
+        {
+          "Name" : "EyeBeamer",
+          "Function" : "createExtActor<EyeBeamer>",
+          "Include" : "EyeBeamer.h"
+        }
+      ]
+    }
+  ]
 }
