@@ -6,7 +6,6 @@
 
 class MapPartsRailMover;
 class ModelObj;
-class VolumeModelDrawer;
 
 class EyeBeamer : public LiveActor {
 public:
