@@ -2,6 +2,7 @@
   "Name": "EyeBeamer to SMG2",
   "Author": "synthwave",
   "Description": "Port of the Eye Beamer obstacle to SMG2",
+  "InstallDependencies": ["Syati_ObjectFactories", "Syati_Init"],
   "SupportedGames": [ "SB4" ],
   "ModuleData": [
     {
