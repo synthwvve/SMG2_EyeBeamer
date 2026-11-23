@@ -1,5 +1,4 @@
 #include "MercatorExt.h"
-// plus whatever header declares MercatorTransformCube in your include tree
 
 static f32 calcLocalHeight(const MercatorTransformCube* pCube, const TVec3f& rPos) {
     TVec3f localPos;
