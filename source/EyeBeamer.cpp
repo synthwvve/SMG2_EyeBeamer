@@ -1,8 +1,4 @@
 #include "EyeBeamer.h"
-#include "Game/AreaObj/MercatorTransformCube.h"
-#include "JSystem/JGeometry/TMatrix.h"
-#include "JSystem/JGeometry/TQuat.h"
-#include "revolution/mtx.h"
 #include "MercatorExt.h"
 
 namespace NrvEyeBeamer {
