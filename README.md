@@ -7,7 +7,7 @@ There is particles and effects included with the module. These can be added to y
 The configuration is the same as SMG1
 
 Obj_arg0: Beam Length: The length of the electric beam. Default is 2000.  
-Obj_arg1: Water Effect?: If this value is greater than 0, then the EyeBeamer will emit a particle when the beam touches water.  
+Obj_arg1: Water Effect Distance: If greater than 0, this controls the distance of the BeamSurface effect from the start(?) of the beam.  
 Obj_arg2: Start State: -1 = Starts idling, 0 = Starts patrolling
 
 Path ID: A valid one is required for this to work properly; Without one, the game will crash if the EyeBeamer is in patrol mode.
